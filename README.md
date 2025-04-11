@@ -1,7 +1,9 @@
 # FindBinaryArchitecture
-Powershell script to find the architecture of Windows binaries in a folder (and subfolders)
+Powershell script to find the architecture of Windows binaries in a folder (and subfolders).
 
-Usage:
+If you don't have Visual Studio 2022 (14.44.34918) installed you will need to alter the `$DumpbinPath` in `Architecture.ps1`
+
+Example usage:
 ```
 PS C:\Users\[Username]\Downloads> ./Architecture.ps1 -RootDirectory "C:\Dell"
 Result for C:\Dell\Dock NIC Driver\Legacy\Windows\WIN7\32\RTNicProp32.dll:
